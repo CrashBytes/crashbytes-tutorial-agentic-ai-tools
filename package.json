@@ -1,0 +1,35 @@
+{
+  "name": "crashbytes-tutorial-agentic-ai-tools",
+  "version": "1.0.0",
+  "description": "Production-ready agentic AI system with tool calling, error handling, rate limiting, and observability",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "claude",
+    "anthropic",
+    "tool-calling",
+    "typescript"
+  ],
+  "author": "Michael Eakins",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.31.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.15.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
