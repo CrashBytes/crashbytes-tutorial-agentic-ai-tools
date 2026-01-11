@@ -21,7 +21,7 @@
   "author": "Michael Eakins",
   "license": "MIT",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.31.0",
+    "@anthropic-ai/sdk": "^0.71.2",
     "dotenv": "^16.4.5",
     "winston": "^3.15.0",
     "zod": "^3.24.1"
