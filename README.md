@@ -1,5 +1,8 @@
 # Building Production Agentic AI Systems: Tool Calling Tutorial
 
+[![Tests](https://github.com/CrashBytes/crashbytes-tutorial-agentic-ai-tools/workflows/Tests/badge.svg)](https://github.com/CrashBytes/crashbytes-tutorial-agentic-ai-tools/actions)
+[![codecov](https://codecov.io/gh/CrashBytes/crashbytes-tutorial-agentic-ai-tools/branch/main/graph/badge.svg)](https://codecov.io/gh/CrashBytes/crashbytes-tutorial-agentic-ai-tools)
+
 Production-ready agentic AI system with tool calling, error handling, rate limiting, state management, and comprehensive observability.
 
 ## Features
