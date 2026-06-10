@@ -63,7 +63,7 @@ export class AgentController {
       // Check stop reason
       if (response.stop_reason === 'end_turn') {
         // Extract text response
-        const textContent = response.content.find(block => block.type === 'text');
+        const textContent = response.content.find((block: any) => block.type === 'text');
         if (textContent && textContent.type === 'text') {
           finalResponse = textContent.text;
         }
